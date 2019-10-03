@@ -1,0 +1,9 @@
+-> Utilizado o expo para criação do projeto. Abstrai jdk. Facilita desenvolvimento inicial. Pode ser baixado na app store ou usado com emulador.
+npm install -g expo-cli
+expo init nativeaircncrocketseat
+cd nativeaircncrocketseat/
+Abrir primeiro o emulador
+yarn start
+Run on android device/emulador
+
+-> 
