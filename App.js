@@ -1,13 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Routes from './src/routes.js';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Hello Aircnc!</Text>
-      <Text>Hello Aircnc!</Text>
-    </View>
-  );
+  return <Routes />;
 }
 
 // Toda estilização do react já é display:flex e flexDirection: column

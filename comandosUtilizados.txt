@@ -6,4 +6,9 @@ Abrir primeiro o emulador
 yarn start
 Run on android device/emulador
 
--> 
+-> yarn add react-navigation
+Para rotas
+
+-> expo install react-native-gesture-handler
+-> expo install react-native-reanimated
+Depois de instalar navigation
