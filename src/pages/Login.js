@@ -2,10 +2,15 @@ import React from 'react';
 import { View, KeyboardAvoidingView, Text, TextInput, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
 import logo from '../assets/logo.png';
+import { Platform } from '@unimodules/core';
 
 export default function Login() {
   return (
-    <View style={styles.container}>
+    <KeyboardAvoidingView
+      enabled={Platform.OS === 'ios'}
+      behavior="padding"
+      style={styles.container}
+    >
       <Image source={logo} />
       <View style={styles.form} >
         <Text style={styles.label}>SEU E-MAIL *</Text>
@@ -30,7 +35,7 @@ export default function Login() {
           <Text style={styles.buttonText}>Encontrar Spots</Text>
         </TouchableOpacity>
       </View>
-    </View>
+    </KeyboardAvoidingView>
   );
 }
 
